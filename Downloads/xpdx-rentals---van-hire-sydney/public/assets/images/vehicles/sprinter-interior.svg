@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#0f172a"/>
+  <!-- Van Cargo Interior Perspective -->
+  <polygon points="120,40 680,40 760,460 40,460" fill="#334155"/>
+  <!-- Heavy Duty Ply Floor -->
+  <polygon points="180,260 620,260 760,460 40,460" fill="#78350f" stroke="#92400e" stroke-width="2"/>
+  <!-- Anti-slip floor grid lines -->
+  <line x1="100" y1="360" x2="700" y2="360" stroke="#451a03" stroke-width="3"/>
+  <line x1="200" y1="310" x2="600" y2="310" stroke="#451a03" stroke-width="2"/>
+  <line x1="400" y1="260" x2="400" y2="460" stroke="#451a03" stroke-width="3"/>
+  <!-- Bulkhead with Window -->
+  <polygon points="260,100 540,100 540,260 260,260" fill="#64748b"/>
+  <rect x="340" y="120" width="120" height="60" rx="8" fill="#0284c7" opacity="0.6"/>
+  <!-- Tie-down Rails -->
+  <rect x="80" y="240" width="10" height="160" fill="#cbd5e1"/>
+  <rect x="710" y="240" width="10" height="160" fill="#cbd5e1"/>
+  <!-- High Roof Ribs -->
+  <path d="M 120 40 Q 400 10 680 40" stroke="#64748b" stroke-width="8" fill="none"/>
+  <path d="M 160 80 Q 400 50 640 80" stroke="#64748b" stroke-width="6" fill="none"/>
+  <!-- LED Cargo Light -->
+  <rect x="360" y="30" width="80" height="15" rx="4" fill="#ffffff" filter="drop-shadow(0 0 10px #ffffff)"/>
+  <!-- Spec overlay tag -->
+  <rect x="40" y="40" width="220" height="50" rx="8" fill="rgba(15,23,42,0.85)"/>
+  <text x="55" y="68" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="16" fill="#ffffff">10.5 m³ Cargo Volume</text>
+  <text x="55" y="82" font-family="Plus Jakarta Sans, sans-serif" font-weight="500" font-size="12" fill="#94a3b8">Fitted with Heavy Duty Ply Floor</text>
+</svg>

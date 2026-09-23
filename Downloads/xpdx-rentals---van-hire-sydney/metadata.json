@@ -1,0 +1,6 @@
+{
+  "name": "XPDX Rentals - Van Hire Sydney",
+  "description": "Sydney's premier long-term commercial van hire provider based in Condell Park NSW. 100+ commercial Toyota HiAce and Mercedes-Benz Sprinter vans with unlimited km and comprehensive insurance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

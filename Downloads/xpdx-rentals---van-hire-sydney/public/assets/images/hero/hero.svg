@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="suburbGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="60%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="500" fill="url(#suburbGrad)"/>
+
+  <!-- Residential House Background -->
+  <rect x="20" y="100" width="360" height="280" fill="#f8fafc" stroke="#cbd5e1"/>
+  <polygon points="0,100 200,30 380,100" fill="#334155"/>
+  <rect x="80" y="140" width="80" height="90" fill="#38bdf8" opacity="0.4"/>
+  <rect x="220" y="140" width="80" height="90" fill="#38bdf8" opacity="0.4"/>
+  <rect x="150" y="270" width="60" height="110" fill="#64748b"/>
+
+  <!-- Driveway & Sidewalk -->
+  <polygon points="0,380 900,380 900,500 0,500" fill="#94a3b8"/>
+  <line x1="0" y1="440" x2="900" y2="440" stroke="#cbd5e1" stroke-width="2"/>
+
+  <!-- Mercedes-Benz High-Roof Van in Driveway -->
+  <g transform="translate(240, 110) scale(0.85)">
+    <!-- Shadow -->
+    <ellipse cx="320" cy="380" rx="300" ry="20" fill="rgba(15,23,42,0.4)"/>
+    <!-- Shell -->
+    <path d="M 60 360 L 50 160 Q 55 60 140 50 L 510 50 Q 610 55 640 110 L 680 200 L 690 360 L 630 360 Q 620 320 580 320 Q 540 320 530 360 L 260 360 Q 250 320 210 320 Q 170 320 160 360 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+    <!-- Cab Windows -->
+    <path d="M 510 65 L 620 115 L 640 190 L 500 190 Z" fill="#1e293b"/>
+    <!-- Branding -->
+    <text x="180" y="180" font-family="Plus Jakarta Sans, sans-serif" font-weight="900" font-size="46" fill="#ff5500">XPDX</text>
+    <text x="180" y="205" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="16" fill="#1e293b" letter-spacing="4">RENTALS</text>
+    <!-- Wheels -->
+    <circle cx="210" cy="360" r="46" fill="#0f172a"/>
+    <circle cx="210" cy="360" r="28" fill="#cbd5e1"/>
+    <circle cx="580" cy="360" r="46" fill="#0f172a"/>
+    <circle cx="580" cy="360" r="28" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Person / Delivery Driver in foreground with clipboard & high-vis/jacket -->
+  <g transform="translate(180, 180)">
+    <!-- Head -->
+    <circle cx="70" cy="40" r="18" fill="#fcd34d"/>
+    <!-- Cap -->
+    <path d="M 50 35 Q 70 20 90 35 L 105 32" stroke="#0f172a" stroke-width="5" fill="#0f172a"/>
+    <!-- Body / Jacket -->
+    <path d="M 45 60 L 95 60 L 105 160 L 35 160 Z" fill="#1e293b"/>
+    <polygon points="50,60 90,60 95,95 45,95" fill="#ea580c"/>
+    <!-- Arm with Clipboard -->
+    <path d="M 85 80 L 115 120" stroke="#fcd34d" stroke-width="10" stroke-linecap="round"/>
+    <rect x="110" y="100" width="30" height="40" rx="3" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+    <line x1="115" y1="112" x2="135" y2="112" stroke="#0f172a" stroke-width="2"/>
+    <line x1="115" y1="122" x2="130" y2="122" stroke="#0f172a" stroke-width="2"/>
+    <!-- Legs walking -->
+    <line x1="55" y1="160" x2="40" y2="250" stroke="#0f172a" stroke-width="12" stroke-linecap="round"/>
+    <line x1="85" y1="160" x2="105" y2="250" stroke="#0f172a" stroke-width="12" stroke-linecap="round"/>
+    <!-- Shoes -->
+    <rect x="25" y="245" width="30" height="12" rx="4" fill="#475569"/>
+    <rect x="95" y="245" width="30" height="12" rx="4" fill="#475569"/>
+  </g>
+</svg>
