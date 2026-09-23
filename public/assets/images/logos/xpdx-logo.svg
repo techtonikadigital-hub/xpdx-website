@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <g id="xpdx-brand">
+    <!-- XPDX Text -->
+    <g font-family="Plus Jakarta Sans, -apple-system, sans-serif" font-weight="900">
+      <!-- X with orange accent -->
+      <path d="M12 12 L24 28 L12 44 H20 L28 33 L36 44 H44 L32 28 L44 12 H36 L28 23 L20 12 Z" fill="#ff5500"/>
+      <!-- P -->
+      <path d="M48 12 H64 C72 12 77 16 77 23 C77 30 72 34 64 34 H56 V44 H48 V12 Z M56 19 V27 H63 C67 27 69 25 69 23 C69 21 67 19 63 19 H56 Z" fill="#111827"/>
+      <!-- D -->
+      <path d="M81 12 H96 C106 12 113 18 113 28 C113 38 106 44 96 44 H81 V12 Z M89 19 V37 H96 C101 37 105 34 105 28 C105 22 101 19 96 19 H89 Z" fill="#111827"/>
+      <!-- X -->
+      <path d="M117 12 L129 28 L117 44 H125 L133 33 L141 44 H149 L137 28 L149 12 H141 L133 23 L125 12 Z" fill="#111827"/>
+      <path d="M133 23 L141 12 H149 L137 28 Z" fill="#ff5500"/>
+    </g>
+    <!-- RENTALS Subtitle -->
+    <text x="14" y="54" font-family="Plus Jakarta Sans, sans-serif" font-size="9.5" font-weight="800" fill="#4b5563" letter-spacing="5">RENTALS</text>
+  </g>
+</svg>
